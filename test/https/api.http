@@ -1,0 +1,21 @@
+POST http://localhost:3000/songs
+Content-Type: application/json
+
+{
+    "releasedDate" : "2022-09-22",
+    "title" : "hiiiiiii",
+    "artists" : ["kiko","neko", "2"],
+    "duration" : "22:12"
+}
+###
+GET http://localhost:3000/songs
+
+###
+GET http://localhost:3000/songs/1
+
+###
+PUT http://localhost:3000/songs/2
+
+###
+DELETE http://localhost:3000/songs/1
+
